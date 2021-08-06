@@ -3,14 +3,14 @@ Suggested Solution:
     Ultilizing the space               Put important information in the significant position and ulitlize the whole page
     Multi-functional access right      Giving different user group access right from the same page (administrator, users, etc)
 
-
+- User should be able to upate the info
 
 - naming restrictions and conventions
     Suggested Solution:
     User accounts identify people added to a system or a system collection.
     User accounts might correspond to an Active Directory, AWS Active Directory, Windows, or other user account types.
     In order to keep compatibility between systems, user accounts that registration system add must conform to the following restrictions.
-    Account name length                 Must not contain more than 20 Unicode characters
+    Account name length                 Must not contain more than 8 Unicode characters
     Uniqueness                          Must not match any other user account added to the project collection
     Reserved group names                Must not be named with a $NAMESPACE at either the project or the server level
     Special characters                  Must not include the following printable characters: "/ \ [ ] : | < > + = ; ? *
@@ -22,7 +22,7 @@ Suggested Solution:
  - password restrictions and conventions
     Suggested Solution:
     Password is important security method when setting up user account. The account information will be used across systems so the password policy should be enforced.
-    Minimum password length             Minimum 14 of characters needed to create a password
+    Minimum password length             Minimum 8 of characters needed to create a password
     Must meet complexity requirements   Passwords can’t contain the user name or parts of the user’s full name, such as their first name.
                                         Passwords must use at least three of the four available character types: lowercase letters, uppercase letters, numbers, and symbols.
     Store password using reversible encryption for All Users policy
