@@ -6,7 +6,7 @@ Suite Teardown      Close Browser
 Test Setup          New Page            http://localhost:8080
 Test Teardown       Close Context
 
-
+# to run the test use: robot /path/User_Login.robot
 *** Test Cases ***
 Login The System
   [Arguments]      ${user}=${EMPTY}    ${pass}=${EMPTY}     ${f_name}=${EMPTY}  ${l_name}=${EMPTY}  ${phone}=${EMPTY}   ${valid}=${True}
@@ -22,8 +22,6 @@ Login The System
     Click                           xpath=/html/body/section/form/input[3]
         # Validate if the registeration work as expected
     Get Element Count               text=User Information    ==  1
-
-
 
 
 *** Keywords ***
