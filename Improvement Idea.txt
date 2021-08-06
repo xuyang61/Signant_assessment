@@ -3,7 +3,7 @@ Suggested Solution:
     Ultilizing the space               Put important information in the significant position and ulitlize the whole page
     Multi-functional access right      Giving different user group access right from the same page (administrator, users, etc)
 
-- User should be able to upate the info
+- User should be able to update the info
 
 - naming restrictions and conventions
     Suggested Solution:
