@@ -1,0 +1,42 @@
+- UI Design
+Suggested Solution:
+    Ultilizing the space               Put important information in the significant position and ulitlize the whole page
+    Multi-functional access right      Giving different user group access right from the same page (administrator, users, etc)
+
+
+
+- naming restrictions and conventions
+    Suggested Solution:
+    User accounts identify people added to a system or a system collection.
+    User accounts might correspond to an Active Directory, AWS Active Directory, Windows, or other user account types.
+    In order to keep compatibility between systems, user accounts that registration system add must conform to the following restrictions.
+    Account name length                 Must not contain more than 20 Unicode characters
+    Uniqueness                          Must not match any other user account added to the project collection
+    Reserved group names                Must not be named with a $NAMESPACE at either the project or the server level
+    Special characters                  Must not include the following printable characters: "/ \ [ ] : | < > + = ; ? *
+                                        Must not include non-printable characters in the ASCII value range of 1-31
+                                        Must not end in a period (.)
+                                        Must not include commas (,)
+                                        Must not include the following Unicode categories: LineSeparator, ParagraphSeparator, Control, Format, OtherNotAssigned
+
+ - password restrictions and conventions
+    Suggested Solution:
+    Password is important security method when setting up user account. The account information will be used across systems so the password policy should be enforced.
+    Minimum password length             Minimum 14 of characters needed to create a password
+    Must meet complexity requirements   Passwords can’t contain the user name or parts of the user’s full name, such as their first name.
+                                        Passwords must use at least three of the four available character types: lowercase letters, uppercase letters, numbers, and symbols.
+    Store password using reversible encryption for All Users policy
+
+
+
+ - first name, last name restriction
+   Suggested Solution:
+   Captaliztion                         First letter of the first name and last name need to be capitalized
+   Name length                          Must be 2 to 13 characters for first name, last name.
+   Special characters                   Only printable characters: ' - and space is allowed in names. Space can not be the first charactor for names
+
+ - phone number
+   Suggested Solution:
+   Country code                         Enforce country code, giving the selection list of countries
+   Validity                             Having the basic validity check for phone number length.
+   Special characters                   Numbers only, no special charactors are allowed
