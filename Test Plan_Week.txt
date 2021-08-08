@@ -1,9 +1,10 @@
 Test Plan
 - planning and environment set up
-    In this phase 3 tasks to do
+    In this phase, 3 tasks to do
         - reviewing the task and checkind what is needed to be prepared for testing
         - set up test environment
-- coding and functional testing
+        - test the environment
+- coding and testing
     In this phase need to clarify what technical tools are needed
         - libraries
         - coding language
@@ -11,10 +12,10 @@ Test Plan
         - testing (manual trying out the functions, automation)
         - debug
 - system end-2-end testing
-    Designing end-2-end test cases to verify the business process
+        - Designing end-2-end test cases to verify the business process
 - exploration
-    ad hoc testing and test exploration
+        - ad hoc testing and test exploration
 - reporting and improvement suggestions
-    Report the test result and providing improvment suggestions
+        - Report the test result and providing improvment suggestions
 - deliveries
-    packing test solutions and other required information, test the deliver method, deliver and get feedback.
+        - packing test solutions and other required information, test the deliver method, deliver and get feedback.
