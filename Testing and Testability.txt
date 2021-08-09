@@ -11,8 +11,13 @@ ANSWER: The company that I worked in has not been very hard in enforcing coding 
 
 
 How do you plan what kind of approach you take for test automation - what libraries to use, how does it work in couple of years, how to make it easy to maintain, etc? What are the main points to consider? 
-ANSWER: I think there is technical perspectives in selecting tools and personal preference as well. Normally a long lasting and well maintained library gives good support for its users and easier to maintain. But new libraries pop-up all the time and offers something that old ones might be lack of. New libraries requires frequent updating along its way of developing thus make users busy in adapting its changes. So its is quite depends on what products we are working on and what test subjects require. For web testing, I used selenium and browser library. I had some first hand experience with these two very similiar usage library. I understood why you ask this question. 
-I prefer to use pulbic libraries instead of selfmade. Because when multiple people are creating library keywords and products evolved several generations, the maintaining of own library also gets challenge. Public library brings everyone to same platform and learnings are fast. But again, it is totally depends on the products and test subjects. 
+ANSWER: I think there is technical perspectives in selecting tools and personal preference as well. Normally a long lasting and well maintained library gives good support for its users and easier to maintain. But new libraries pop-up all the time and offers something that old ones might be lack of. New libraries requires frequent updating along its way of developing thus make users busy in adapting its changes. So its is quite depends on what products we are working on and what test subjects require. For web testing, I used selenium and browser library. I had some first hand experience with these two very similiar usage library. I understood why you ask this question. Some tips when doing web application testing:
+	- try to dicupling case to case. means if there is some precondition for a test scanario, better group them into one test suite. Avoid dependency between test cases.
+	  I actually did this in this asssessment for user account creation and log in. 
+	- try to use "wait untill ..." than "sleep xs" to make sure delay of network interrupt on test result
+	- use "headless=TRUE" to avoid other interruptions of browser to test result. 
+	- use document, tags and comments to improve the communication, so others can understand what the test case is intended to do, address specility and customization version.
+I prefer to use pulbic libraries instead of self-made. Because when multiple people are creating library keywords and products evolved several generations, the maintaining of own library also gets challenge. Public library brings everyone to same platform and learnings are fast. But again, it is totally depends on the products and test subjects. 
 
 
 Code testability, how do you enforce it? 
