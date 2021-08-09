@@ -14,7 +14,7 @@ Test Teardown       Close Context
 # to run the test use: robot /path/User_Login.robot
 *** Test Cases ***
 Login The System
-  [Arguments]      ${user}=${EMPTY}    ${pass}=${EMPTY}     ${f_name}=${EMPTY}  ${l_name}=${EMPTY}  ${phone}=${EMPTY}   ${valid}=${True}
+    [Arguments]      ${user}=${EMPTY}    ${pass}=${EMPTY}     ${f_name}=${EMPTY}  ${l_name}=${EMPTY}  ${phone}=${EMPTY}   ${valid}=${True}
     Register User   user=${USER}    pass=${PASS}     f_name=Fake     l_name=Testaaja     phone=0456789       valid=${True}
     Click           xpath=/html/body/section/form/input[6]
     # Validate if the registeration work as expected
