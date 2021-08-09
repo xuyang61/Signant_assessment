@@ -1,3 +1,5 @@
+ #ultilize DELETE API to clean all entries in db. 
+
 import requests
 import json
 
