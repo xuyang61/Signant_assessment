@@ -28,7 +28,7 @@ How do you plan what kind of approach you take for test automation - what librar
 Code testability, how do you enforce it? 
 How do you make sure that the product is testable? 
     Delivery:  Testing and Testability.txt
-    I had put answers to these questions into file.
+    I had put answers of above several questions into file Testing and Testability.txt.
   
 Provide the following back as redistributable git repository. 
 Testing Task: 
@@ -45,18 +45,18 @@ Exploratory Testing Report
     Delivery: Test Report.txt
 
 Tell us what improvement would you propose for the app 
-      Delivery: Improvement Idea.txt
+    Delivery: Improvement Idea.txt
       
 If you would be given a week to do quality assurance for this product, briefly plan the tasks based on your skills, knowledge and expertise 
 Coding Task: 
-      Delivery: Test Plan_Week.txt
+    Delivery: Test Plan_Week.txt
       
 Working stable application (Freely Distributable) of test automation implementation 
 Instructions how to run it and short description of components, including external libraries 
-      Delivery: comment in each test files. 
+    Delivery: comment in each test files. 
       
 Description about taken approach and potential gaps in application 
-      Delivery: The application is overly simple so it lacks of many features/functions that should be in such registration system. For example, lacking of feature to support update information is one. Publishing password without masking is another. Then other features can refer to Improvement Idea.txt. There could be much more but let's admit it is overly simple app. 
+    Delivery: The application is overly simple so it lacks of many features/functions that should be in such registration system. For example, lacking of feature to support update information is one. Publishing password without masking is another. Then other features can refer to Improvement Idea.txt. There could be much more but let's admit it is overly simple app. 
       
 How much time it took, there is no time limit as such. Remember to return the task when agreed or let us know if you run late.
-      Delivery: 2h each day in three days
+    Delivery: 2h each day in three days
