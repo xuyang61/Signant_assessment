@@ -1,9 +1,13 @@
+# Test suite is to test the registration system API (GET, POST, PUT, DELETE)
+# There is not update of the info, so PUT API is not applied. 
+# As maintainance of system, test includes DELETE API into suite. 
+# Test suites ultilize external library REST, Collections, Requestslibrary. 
+
+
 *** Settings ***
 Library         REST    http://localhost:8080
 Library         Collections
-Library         String
 Library         RequestsLibrary
-Library         OperatingSystem
 
 *** Variables ***
 ${old_props}=   {  "username": "xxxx", "password": "xxxx" }
