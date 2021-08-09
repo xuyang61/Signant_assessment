@@ -6,7 +6,7 @@
 *** Settings ***
 Library             Collections
 Library             Browser
-Suite Setup         Setup Test Suite    headless=false
+Suite Setup         Setup Test Suite    headless=true
 Suite Teardown      Close Browser
 Test Setup          New Page            http://localhost:8080
 Test Teardown       Close Context
