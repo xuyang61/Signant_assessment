@@ -1,3 +1,5 @@
+#simple test case to test GET API. validation. 
+
 import requests
 
 host_url = "http://localhost:8080"
