@@ -18,17 +18,17 @@ ${host_url}=   http://localhost:8080
 *** Test Cases ***
 GET all existing users, write result to a file
     GET         ${host_url}/api/users
-    [Teardown]  Output  response body       ${OUTPUTDIR}/output/all_users.html
+    [Teardown]  Output  response body       ${OUTPUTDIR}/output/all_users.html          #result write to separate files under /output folder
 
 POST to create a new user from parameter
     POST        ${host_url}/api/users       ${new_props}
     Integer     response status             201         #404
-    [Teardown]  Output  response body       ${OUTPUTDIR}/output/new_user.html
+    [Teardown]  Output  response body       ${OUTPUTDIR}/output/new_user.html            #result write to separate files under /output folder
 
 DELETE the existing successfully, save the history of all requests
     DELETE      ${host_url}/api/users                  # status can be any of the below
     Integer     response status             200    201     202    204  #404
-    [Teardown]  Output  response body       ${OUTPUTDIR}/output/all.html  # all the instances so far
+    [Teardown]  Output  response body       ${OUTPUTDIR}/output/all.html                # all the instances so far
 
 
 *** Keywords ***
