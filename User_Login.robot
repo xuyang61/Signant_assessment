@@ -1,3 +1,8 @@
+# Test suite is to test the registration system takes only completed registration entries into its system
+# Test suites ultilize external library Browser, Collections. 
+# System taken registration only once. So test case generate unique username and passsword for each test round.
+
+
 *** Settings ***
 Library             Collections
 Library             Browser
